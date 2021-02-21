@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body { 
+     background-color: #1F2235;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+.content { 
+    padding: 0 200px;
+    color: white;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+ul {
+    padding: 10px 200px;
+    height: 60px;
+    font-size: medium;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 75%;
+    z-index: 2;
+  }
+
+  li {
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+
+  #home { 
+    color: #e0c164;
+  }
+
+  h2 {
+    color: #e0c164; 
+    font-size: xx-large;
+    padding: 60px 0 40px 0;
+  }
+
+  .welcome {
+      background-color: #1F2235;
+      padding: 20px 120px;
+      color: white;
+      position: relative;
+      top: 65px;
+      height: 750px;
+  }
+
+  .about { 
+      background-color: #313452;
+      padding: 20px 0;
+      position: relative;
+      top: 65px;
+      height: 500px;
+  }
+
+  .whatdowedo {
+    background-color: #1F2235;
+    padding: 20px 0 60px 0;
+    position: relative;
+    top: 65px;
+  }
+
+  .boxes { 
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .footer {
+    background-color: #313452;
+    padding: 20px 0;
+    position: relative;
+    top: 65px;
+  }
+
+  .about p { 
+      width: 40%;
+  }
+
+  .answer {
+      width: 300px;
+      height: 200px;
+      padding: 20px 0;
+      margin: 15px 15px;
+      border: 1px solid #ccbc8c;
+  }
+
+  .answer h3 {
+      margin: 10px 25px;
+  }
+
+  .answer p {
+      margin: 10px 25px;
+  }
+
+  .icon {
+    margin: 10px 25px;
+  }
+
+  .welcome img {
+    position: relative;
+    width: 45%;
+    float: right;
+    padding-top: 100px;
+  }
+  
+  .about p {
+    padding-top: 10px;
+    font-size: large;
+  }
+
+  .welcome h2 {
+    padding-top: 150px;
+  }
+
+  .welcome h1 {
+    font-size: 55px;
+    width: 50%;
+  }
+
+  .welcome p {
+    margin-top: 35px;
+    color: #e0c164;
+    font-size: x-large;
+  }
+
+  .about img {
+    padding-top: 40px;
+    width: 45%;
+    position: relative;
+    float: right;
+  }
+  
